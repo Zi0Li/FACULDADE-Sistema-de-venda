@@ -47,7 +47,7 @@ Conexao::desconectar();
             <th>Endereço</th>
             <th>Telefone</th>
             <th>
-                <a class="btn-floating btn-small waves-effect waves-light light-green accent-3" onclick="JavaScript:location.href='cadastro_cliente_teste.php'">
+                <a class="btn-floating btn-small waves-effect waves-light light-green accent-3" onclick="JavaScript:location.href='cad_cliente.php'">
                     <i class="material-icons">add_circle</i>
             </th>
             </tr>
@@ -66,7 +66,7 @@ Conexao::desconectar();
                            <?php echo $row['idCliente']; ?>">
                             <i class="material-icons">clear</i>
                         </a>
-                        <a class="btn-floating btn-small waves-effect waves-light orange" onclick="JavaScript:location.href='frmEdtCliente.php?idCliente=' + 
+                        <a class="btn-floating btn-small waves-effect waves-light orange" onclick="JavaScript:location.href='editar_cliente.php?idCliente=' + 
                            <?php echo $row['idCliente']; ?>">
                             <i class="material-icons">edit</i>
                         </a>

@@ -38,7 +38,7 @@
         </div>
       </div>
       <div>
-      <button type="button" name="btnVoltar" onclick="JavaScript:location.href='cadastro_admin.php'">Cadastrar</button>  
+      <button type="button" name="btnVoltar" onclick="JavaScript:location.href='cad_admin.php'">Cadastrar-me</button>  
       <input type="submit" name="acao" value="Login"></div>
         <div><input type="hidden" name="form" value="f_form"></div>
     </form>

@@ -66,7 +66,7 @@ Conexao::desconectar();
                            <?php echo $row['id']; ?>">
                             <i class="material-icons">clear</i>
                         </a>
-                        <a class="btn-floating btn-small waves-effect waves-light orange" onclick="JavaScript:location.href='frmEdtProduto.php?id=' + 
+                        <a class="btn-floating btn-small waves-effect waves-light orange" onclick="JavaScript:location.href='editar_produto.php?id=' + 
                            <?php echo $row['id']; ?>">
                             <i class="material-icons">edit</i>
                         </a>
