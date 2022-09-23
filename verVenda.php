@@ -33,10 +33,10 @@ Conexao::desconectar();
 
 <body>
     <div class="container ">
-        <h1 class="blue-grey lighten-1 center-align">VENDAS</h1>
+        <h1 class="purple darken-3 center-align">VENDAS</h1>
         <table class="striped">
             <tr>
-                <a class="btn-floating btn-small waves-effect waves-light grey darken-1 accent-3" onclick="JavaScript:location.href='menuProcurar.php'">
+                <a class="btn-floating btn-small waves-effect waves-light grey darken-1 accent-3" onclick="JavaScript:location.href='menuPesquisa.php'">
                     <i class="material-icons">keyboard_backspace</i>
                 </a>
             </tr>
@@ -49,7 +49,7 @@ Conexao::desconectar();
                 <th>Quantidade Vendida</th>
                 <th>Valor da Venda</th>
                 <th>
-                    <a class="btn-floating btn-small waves-effect waves-light light-green accent-3" onclick="JavaScript:location.href='cadastro_venda.php'">
+                    <a class="btn-floating btn-small waves-effect waves-light green accent-3" onclick="JavaScript:location.href='cad_venda.php'">
                         <i class="material-icons">add_circle</i>
                 </th>
             </tr>
@@ -70,7 +70,7 @@ Conexao::desconectar();
                            <?php echo $row['idVenda']; ?>">
                             <i class="material-icons">clear</i>
                         </a>
-                        <a class="btn-floating btn-small waves-effect waves-light orange" onclick="JavaScript:location.href='frmEdtVenda.php?idVenda=' + 
+                        <a class="btn-floating btn-small waves-effect waves-light orange" onclick="JavaScript:location.href='editar_vendas.php?idVenda=' + 
                            <?php echo $row['idVenda']; ?>">
                             <i class="material-icons">edit</i>
                         </a>

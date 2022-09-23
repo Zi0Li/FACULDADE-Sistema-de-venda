@@ -33,10 +33,10 @@ Conexao::desconectar();
 
 <body>
     <div class="container ">
-        <h1 class="blue-grey lighten-1 center-align">PRODUTOS</h1>
+        <h1 class="purple darken-3 center-align">PRODUTOS</h1>
         <table class="striped">
             <tr>
-                <a class="btn-floating btn-small waves-effect waves-light grey darken-1 accent-3" onclick="JavaScript:location.href='menuProcurar.php'">
+                <a class="btn-floating btn-small waves-effect waves-light grey darken-1 accent-3" onclick="JavaScript:location.href='menuPesquisa.php'">
                     <i class="material-icons">keyboard_backspace</i>
                 </a>
             </tr>
@@ -47,7 +47,7 @@ Conexao::desconectar();
                 <th>Valor</th>
                 <th>Descrição</th>
                 <th>
-                    <a class="btn-floating btn-small waves-effect waves-light light-green accent-3" onclick="JavaScript:location.href='cad_produto.php'">
+                    <a class="btn-floating btn-small waves-effect waves-light green accent-3" onclick="JavaScript:location.href='cad_produto.php'">
                         <i class="material-icons">add_circle</i>
                 </th>
             </tr>

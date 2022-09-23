@@ -37,7 +37,7 @@
     }
 ?>
                      <div class="login-button">  
-                            <button type="button" name="btnVoltar" onclick="JavaScript:location.href='verProdutos.php'">Cancelar</button>
+                            <button type="button" name="btnVoltar" onclick="JavaScript:location.href='menuCadastros.php'">Cancelar</button>
                         </div>
                     </div>
                 </div>
